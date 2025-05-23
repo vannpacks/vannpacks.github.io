@@ -10,7 +10,7 @@ redirect_from:
 I am a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.
 
 ## Selected Publications
-<ul>
+<ul class="selected-publications-list">
 {% for post in site.selected_publication reversed limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
