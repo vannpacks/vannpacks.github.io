@@ -11,7 +11,7 @@ I am a graduate student at **National Taiwan University** focusing on tools that
 
 ## Selected Publications
 <ul>
-{% for post in site.selected_publication limit:3 %}
+{% for post in site.selected_publication reversed limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
 </ul>
