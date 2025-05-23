@@ -17,11 +17,10 @@ I am a graduate student at **National Taiwan University** focusing on tools that
 </ul>
 <p class="text-right"><a href="{{ '/publications/' | relative_url }}">More publications...</a></p>
 
-## Experience Summary
+## Experience
 - M.S. in Computer Science, National Taiwan University (2023&ndash;present)
 - Unreal Engine Technical Lead, Moonshine Animation (2022)
 - Unreal Engine Technical Artist, Moonshine Animation (2020&ndash;2021)
-- Diploma of Industrial Design, FZD School of Design (2019&ndash;2020)
 - B.S. in Psychology, National Taiwan University (2014&ndash;2018)
 
 See the full <a href="{{ '/cv/' | relative_url }}">CV</a> for more details.
