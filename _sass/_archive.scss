@@ -69,8 +69,11 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+  max-width: 250px;
+  margin-right: 1rem;
   img {
     width: 100%;
+    height: auto;
   }
 }
 
