@@ -2,7 +2,7 @@
 title: "Wandering Spirit: Exploring Cooperative Mixed-Reality Gameplay with Shared Physical Props"
 collection: publications
 category: conferences
-permalink: 'https://dl.acm.org/doi/10.1145/3706599.3720314'
+permalink: /publication/2025-wandering-spirit
 excerpt: 'CHI \`25 Student Game Competition best paper.'
 date: 2025-05-01
 venue: 'CHI EA 2025 Student Game Competition'
