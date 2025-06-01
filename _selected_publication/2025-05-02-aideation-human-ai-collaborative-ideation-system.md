@@ -2,7 +2,8 @@
 title: "AIdeation: Designing a Human-AI Collaborative Ideation System for Concept Designers"
 collection: selected_publication
 category: conferences
-permalink: /publication/2025-aideation
+link: /publication/2025-aideation
+permalink: /selected_publication/2025-aideation
 excerpt: 'CHI \`25 full paper on collaborative ideation system.'
 date: 2025-05-01
 venue: 'CHI 2025'
