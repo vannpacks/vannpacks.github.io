@@ -11,8 +11,17 @@ redirect_from:
 
 Education
 ======
+- **University of California, Berkeley**, Berkeley, CA, USA  
+  *Visiting Scholar in Computer Science*
+  *Creativity Support and Human-Centered AI*
+  *Supervised by Prof. Xiang "Anthony" Chen*
+  *May 2025 - Present*
+  
+
 - **National Taiwan University**, Taipei, Taiwan  
   *Master of Science in Computer Science*  
+  *Creativity Support and Extended Reality*
+  *Supervised by Prof. Robin Bing-Yu Chen and Prof. Mike Y. Chen*
   *Sep 2023 – Present*
 
 - **FZD School of Design**, Singapore  
