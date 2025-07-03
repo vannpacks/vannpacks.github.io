@@ -18,6 +18,7 @@ I am a graduate student at **National Taiwan University** focusing on tools that
 <p class="text-right"><a href="{{ '/publications/' | relative_url }}">More publications...</a></p>
 
 ## Experience
+- Visiting Scholar in Computer Science, University of California, Los Angeles (2025&ndash;present)
 - M.S. in Computer Science, National Taiwan University (2023&ndash;present)
 - Unreal Engine Technical Lead, Moonshine Animation (2022)
 - Unreal Engine Technical Artist, Moonshine Animation (2020&ndash;2021)

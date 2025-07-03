@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-- **University of California, Berkeley**, Berkeley, CA, USA  
+- **University of California, Los Angeles**, Los Angeles, CA, USA  
   *Visiting Scholar in Computer Science*
   *Creativity Support and Human-Centered AI*
   *Supervised by Prof. Xiang "Anthony" Chen*
