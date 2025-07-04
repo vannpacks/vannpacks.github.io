@@ -14,7 +14,7 @@ I am currently a Visiting Scholar at the UCLA HCI Lab and a graduate student at 
 - 🧑‍🔬🏫 June 2025: Began as Visiting Scholar at UCLA HCI Lab.
 - 🏆🎮 May 2025: "Wandering Spirit" won First Place in CHI'25 Student Game Competition.
 - 🎮🎉 February 2025: "Wandering Spirit" accepted to CHI'25 Student Game Competition.
-- 🤖🎉 January 2025: "AIdeation" accepted to CHI'25.
+- 🤖🎉 January 2025: Paper "AIdeation" accepted to CHI'25.
 
 ## Selected Publications
 <ul class="selected-publications-list">
