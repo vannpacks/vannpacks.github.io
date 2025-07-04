@@ -66,6 +66,10 @@ Responsibilities included integrating Extended Reality (XR) technology and coord
 
 Research experience
 ======
+- **UCLA HCI Research**, University of California, Los Angeles, USA  
+  Visiting Scholar under Prof. Xiang "Anthony" Chen  
+  *May 2025 – Present*
+
 - **CMLab, National Taiwan University**, Taipei, Taiwan  
   Member of Robin Bing-Yu Chen's Lab  
   *2023 – Present*

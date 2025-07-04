@@ -25,7 +25,7 @@ I am currently a Visiting Scholar at the UCLA HCI Lab and a graduate student at 
 <p class="text-right"><a href="{{ '/publications/' | relative_url }}">More publications...</a></p>
 
 ## Experience
-- Visiting Scholar in Electrical and Computer Engineering, University of California, Los Angeles (2025&ndash;present)
+- Visiting Scholar in Computer Science, University of California, Los Angeles (2025&ndash;present)
 - M.S. in Computer Science, National Taiwan University (2023&ndash;present)
 - Unreal Engine Technical Lead, Moonshine Animation (2022)
 - Unreal Engine Technical Artist, Moonshine Animation (2020&ndash;2021)
