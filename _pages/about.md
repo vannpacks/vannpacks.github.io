@@ -10,6 +10,7 @@ redirect_from:
 I am currently a Visiting Scholar at the UCLA HCI Lab and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.
 
 ## News
+- 📝✨ July 2025: One Paper conditionally accepted to UIST'25.
 - 🧑‍🔬🏫 June 2025: Began as Visiting Scholar at UCLA HCI Lab.
 - 🏆🎮 May 2025: "Wandering Spirit" won First Place in CHI'25 Student Game Competition.
 - 🎮🎉 February 2025: "Wandering Spirit" accepted to CHI'25 Student Game Competition.
