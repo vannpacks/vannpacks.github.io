@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "GenTune: Toward Traceable Prompts to Improve Controllability of Image Refinement in Environment Design"
 collection: publications
 category: conferences
@@ -13,4 +13,4 @@ header:
   teaser: 
 ---
 
-Responsible for leading the research, generating research ideas, conducting the formative study, system design, backend development, user study, field study, and writing the entire paper.
+Responsible for leading the research, generating research ideas, conducting the formative study, system design, backend development, user study, field study, and writing the entire paper. -->
