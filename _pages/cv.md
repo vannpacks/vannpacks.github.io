@@ -25,7 +25,6 @@ Education
   *Sep 2023 – Present*
 
 - **FZD School of Design**, Singapore  
-  *Diploma of Industrial Design*  
   *Feb 2019 – Jan 2020*
 
 - **National Taiwan University**, Taipei, Taiwan  
