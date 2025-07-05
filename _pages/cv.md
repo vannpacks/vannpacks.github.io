@@ -17,15 +17,11 @@ Education
   *Supervised by Prof. Xiang "Anthony" Chen*
   *May 2025 - Present*
   
-
 - **National Taiwan University**, Taipei, Taiwan  
   *Master of Science in Computer Science*  
   *Creativity Support and Extended Reality*
   *Supervised by Prof. Robin Bing-Yu Chen and Prof. Mike Y. Chen*
   *Sep 2023 – Present*
-
-- **FZD School of Design**, Singapore  
-  *Feb 2019 – Jan 2020*
 
 - **National Taiwan University**, Taipei, Taiwan  
   *Bachelor of Science in Psychology*  
@@ -76,6 +72,12 @@ Research experience
 - **Modeling and Informatics Lab, National Taiwan University**, Taipei, Taiwan  
   Research Assistant for Prof. Tsung-Ren Huang  
   *2015 – 2016*
+
+Training
+======
+- **FZD School of Design**, Singapore  
+  *Feb 2019 – Jan 2020*  
+  Completed a one-year intensive program focusing on concept design
 
 
 Activities
