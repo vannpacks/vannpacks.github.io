@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "GenTune: Toward Traceable Prompts to Improve Controllability of Image Refinement in Environment Design"
 collection: publications
 category: conferences
@@ -11,4 +11,4 @@ citation: 'WenFan Wang, et al. (2025). "GenTune: Toward Traceable Prompts to Imp
 header:
   image: 
   teaser: 
---- -->
+---
