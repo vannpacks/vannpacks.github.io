@@ -1,3 +1,20 @@
 <!-- start custom footer snippets -->
 <a href="{{ site.baseurl }}/sitemap/">Sitemap</a>
+<div id="visit-count" style="margin-top: 10px; font-size: 0.9em; color: #666;"></div>
+<script>
+  // Simple visit count using localStorage
+  (function() {
+    const visitCountKey = 'site-visit-count';
+    let count = localStorage.getItem(visitCountKey);
+    if (!count) {
+      count = 0;
+    }
+    count = parseInt(count) + 1;
+    localStorage.setItem(visitCountKey, count);
+    const visitCountDiv = document.getElementById('visit-count');
+    if (visitCountDiv) {
+      visitCountDiv.textContent = 'You have visited this site ' + count + ' time' + (count > 1 ? 's' : '') + '.';
+    }
+  })();
+</script>
 <!-- end custom footer snippets -->

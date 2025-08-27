@@ -9,6 +9,7 @@ venue: 'UIST 2025'
 paperurl: ''
 citation: 'WenFan Wang, et al. (2025). "GenTune: Toward Traceable Prompts to Improve Controllability of Image Refinement in Environment Design." <i>UIST 2025</i>.'
 header:
-  image: 
-  teaser: 
+  image: UIST25_GenTune.png
+  teaser: UIST25_GenTune.png
+  overlay_color: ""
 ---
