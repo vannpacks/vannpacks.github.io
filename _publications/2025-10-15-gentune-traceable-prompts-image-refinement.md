@@ -6,7 +6,7 @@ permalink: /publication/2025-gentune
 excerpt: "UIST '25 full paper on traceable prompts for image refinement in environment design."
 date: 2025-10-15
 venue: 'UIST 2025'
-paperurl: 'https://doi.org/10.1145/3746059.3747774'
+paperurl: 'https://arxiv.org/abs/2508.15227'
 citation: 'WenFan Wang, et al. (2025). "GenTune: Toward Traceable Prompts to Improve Controllability of Image Refinement in Environment Design." <i>UIST 2025</i>.'
 header:
   image: UIST25_GenTune.png
