@@ -27,6 +27,22 @@ Education
   *Bachelor of Science in Psychology*  
   *Sep 2014 – Jun 2018*
 
+Research experience
+======
+- **UCLA HCI Research**, University of California, Los Angeles, USA  
+  Visiting Scholar under Prof. Xiang "Anthony" Chen  
+  *May 2025 – Present*
+
+- **CMLab, National Taiwan University**, Taipei, Taiwan 
+  Research Assistant of Robin Bing-Yu Chen's Lab  
+  *2025 – Present*
+  Member of Robin Bing-Yu Chen's Lab  
+  *2023 – 2025*
+
+- **Modeling and Informatics Lab, National Taiwan University**, Taipei, Taiwan  
+  Research Assistant for Prof. Tsung-Ren Huang  
+  *2015 – 2016*
+
 Work experience
 ======
 - **Moonshine Animation**, Taipei, Taiwan  
@@ -58,27 +74,11 @@ Responsibilities included integrating Extended Reality (XR) technology and coord
 **Technical Artist**
 - Missing Pictures Episode 2: Tsai Ming-liang (2021)
 
-
-Research experience
-======
-- **UCLA HCI Research**, University of California, Los Angeles, USA  
-  Visiting Scholar under Prof. Xiang "Anthony" Chen  
-  *May 2025 – Present*
-
-- **CMLab, National Taiwan University**, Taipei, Taiwan  
-  Member of Robin Bing-Yu Chen's Lab  
-  *2023 – Present*
-
-- **Modeling and Informatics Lab, National Taiwan University**, Taipei, Taiwan  
-  Research Assistant for Prof. Tsung-Ren Huang  
-  *2015 – 2016*
-
 Training
 ======
 - **FZD School of Design**, Singapore  
   *Feb 2019 – Jan 2020*  
   Completed a one-year intensive program focusing on concept design
-
 
 Activities
 ======
@@ -93,7 +93,6 @@ Activities
   **Organizer**  
   *July 2016*  
   Independently organized a large-scale event for 40 students from prestigious universities across Taiwan and mainland China. Focused on cultural heritage and visited significant locations in Beijing, Tianjin, Taipei, and Tainan.
-
 
 Skills
 ======
