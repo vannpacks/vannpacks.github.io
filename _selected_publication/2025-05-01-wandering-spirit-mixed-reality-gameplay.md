@@ -13,3 +13,6 @@ header:
   image: CHI25_ws.png
   teaser: CHI25_ws.png
 ---
+
+\
+Wandering Spirit is a mixed-reality game that fosters collaboration through the shared use of a physical prop. The game’s core mechanic centers on a flexible loop manipulated simultaneously by two co-located players, serving as a bridging element between physical and virtual interactions. Through three distinct game stages, the loop transforms into different virtual tools—a trampoline, a bubble/wind generator, and a fiery hoop—each requiring precise synchronization between players to interact with virtual elemental spirits. The shared prop creates natural constraints that guide player coordination while maintaining individual agency. Initial observations suggest that the physical sharing of a single prop creates emergent social dynamics and enhanced spatial awareness between players, contributing to both mechanical cooperation and social presence. The game demonstrates how shared physical props can serve as effective mediators between physical and virtual spaces, potentially opening new design opportunities for embodied collaborative experiences in mixed reality.
