@@ -11,97 +11,96 @@ redirect_from:
 
 Education
 ======
-- **University of California, Los Angeles**, Los Angeles, CA, USA  
-  *Visiting Scholar in Computer Science*
-  *Creativity Support and Human-Centered AI*
-  *Supervised by Prof. Xiang "Anthony" Chen*
-  *May 2025 - Present*
-  
-- **National Taiwan University**, Taipei, Taiwan  
-  *Master of Science in Computer Science*  
-  *Creativity Support and Extended Reality*
-  *Supervised by Prof. Robin Bing-Yu Chen and Prof. Mike Y. Chen*
-  *Sep 2023 – Present*
+- **University of California, Los Angeles**, Los Angeles, USA
+  [cite_start]*Visiting Scholar, Electrical and Computer Engineering* [cite: 2, 9]
+  [cite_start]*May 2025 – May 2026 (Expected)* [cite: 9]
 
-- **National Taiwan University**, Taipei, Taiwan  
-  *Bachelor of Science in Psychology*  
-  *Sep 2014 – Jun 2018*
+- **National Taiwan University**, Taipei, Taiwan
+  [cite_start]*Master of Science, Computer Science and Information Engineering* [cite: 10, 11]
+  [cite_start]*Sep 2023 – Jun 2026 (Expected)* [cite: 15]
 
-Research experience
+- **FZD School of Design**, Singapore
+  [cite_start]*Concept Design Program* [cite: 12, 13]
+  [cite_start]*Feb 2019 – Jan 2020* [cite: 16]
+
+- **National Taiwan University**, Taipei, Taiwan
+  [cite_start]*Bachelor of Science, Psychology* [cite: 14]
+  [cite_start]*Sep 2014 – Jun 2018* [cite: 17]
+
+Research Experience
 ======
-- **UCLA HCI Research**, University of California, Los Angeles, USA  
-  Visiting Scholar under Prof. Xiang "Anthony" Chen  
-  *May 2025 – Present*
+- **HCI Research, UCLA**, Los Angeles, USA
+  [cite_start]*Visiting Scholar* [cite: 19, 20]
+  [cite_start]*Advisor: Prof. Anthony Xiang Chen* [cite: 21]
+  [cite_start]*May 2025 – May 2026 (Expected)* [cite: 22]
+  * [cite_start]Conducting research on human-AI collaboration and multi-agent systems for creative production workflows. [cite: 23]
+  * [cite_start]Leading **AnimAgents** (CHI '26 under review), a stage-aware orchestration system that coordinates multi-stage animation pre-production. [cite: 24]
+  * [cite_start]The system has been deployed in 2 professional studios to support real-world creative projects. [cite: 25]
 
-- **CMLab, National Taiwan University**, Taipei, Taiwan 
-  Research Assistant of Robin Bing-Yu Chen's Lab  
-  *2025 – Present*
-  Member of Robin Bing-Yu Chen's Lab  
-  *2023 – 2025*
+- **Communication and Multimedia Lab, National Taiwan University**, Taipei, Taiwan
+  [cite_start]*Research Assistant* [cite: 26]
+  [cite_start]*Advisor: Prof. Robin Bing-Yu Chen* [cite: 27]
+  [cite_start]*Jan 2024 – Jun 2026 (Expected)* [cite: 28]
+  * [cite_start]Conducted research on human-AI collaboration in professional creative workflows, developing creativity-support systems adopted by animation and game studios. [cite: 29]
+  * [cite_start]Led multiple first-author projects including **AIdeation** (CHI '25), **GenTune** (UIST '25), and **DDS** (CHI '26 under review) focusing on human-centered generative AI, interpretability, and controllability. [cite: 30]
 
-- **Modeling and Informatics Lab, National Taiwan University**, Taipei, Taiwan  
-  Research Assistant for Prof. Tsung-Ren Huang  
-  *2015 – 2016*
+- **Modeling and Informatics Lab, National Taiwan University**, Taipei, Taiwan
+  [cite_start]*Research Assistant* [cite: 31]
+  [cite_start]*Advisor: Prof. Tsung-Ren Huang* [cite: 32]
+  [cite_start]*Jan 2015 – Jun 2016* [cite: 33]
+  * [cite_start]Conducted research on differences in EEG patterns between twins performing simple cognitive tasks. [cite: 34]
+  * [cite_start]Analyzed emotional word usage on social media platforms using sentiment analysis and linguistic feature extraction. [cite: 35]
 
-Work experience
+Publications
 ======
-- **Moonshine Animation**, Taipei, Taiwan  
-  **Unreal Engine Technical Lead**  
-  *Jan 2022 – Aug 2022*  
-  Led the development of Extended Reality and Concert systems based on Unreal Engine, utilized in multiple online presentations and virtual concerts, including the 2022 New Year's Eve concert by Mayday.
+**Under Review**
+1. **Wen-Fan Wang**, Chien-Ting Lu, Jin Ping Ng, Yi-Ting Chiu, Ting-Ying Lee, Miaosen Wang, Bing-Yu Chen, Xiang "Anthony" Chen. **AnimAgents**. [cite_start]*Under review at CHI 2026*. [cite: 63, 64]
+2. **Wen-Fan Wang**, Tsai-Hsuan Lin, Chi-Lan Yang, An-Ru Cheng, Bing-Yu Chen. **Decompose-Demonstrate-Simulate**. [cite_start]*Under review at CHI 2026*. [cite: 66]
+3. Pin-Chun Lu, **Wen-Fan Wang**, Che-Wei Wang, Ting-Ying Lee, Tsai-Hsuan Lin, Duo-Jie Hsiao, Che-Han Hsieh, Yu-Ting Tseng, Neng-Hao Yu, Mike Y. Chen. **MoveTogether**. [cite_start]*Under review at CHI 2026*. [cite: 68, 69]
 
-  **Unreal Engine Technical Artist**  
-  *Jun 2020 – Dec 2021*  
-  Experienced in Virtual Production with a focus on computer vision, real-time composition, Unreal Engine development (shaders and plugins), and VR animation and interactive experiences.
+**Published**
+1. **Wen-Fan Wang**, Ting-Ying Lee, Chien-Ting Lu, Che-Wei Hsu, Nil Ponsa Campanyà, Yu Chen, Mike Y. Chen, Bing-Yu Chen. **GenTune: Toward Traceable Prompts to Improve Controllability of Image Refinement in Environment Design**. [cite_start]*Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST '25)*. [cite: 51-53]
+2. **Wen-Fan Wang**, Chien-Ting Lu, Nil Ponsa Campanyà, Bing-Yu Chen, Mike Y. Chen. **AIdeation: Designing a Human-AI Collaborative Ideation System for Concept Designers**. [cite_start]*Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)*. [cite: 54-56]
+3. **Wen-Fan Wang**, Ting-Ying Lee, Tsai-Hsuan Lin, Duo-Jie Hsiao, Che-Han Hsieh, Yu-Ting Tseng, Lo Yi-Chun. **Wandering Spirit: Exploring Cooperative Mixed-Reality Gameplay with Shared Physical Props**. [cite_start]*Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '25), Student Game Competition, First Place*. [cite: 57-59]
+4. A.Y.H. Tseng, **Wen-Fan Wang**, Bing-Yu Chen. **SegAnimeChara: Segmenting Anime Characters Generated by AI**. [cite_start]*Proceedings of ACM SIGGRAPH 2023 Posters*. [cite: 60, 61]
 
-Professional Projects
+Professional Experience
 ======
-## Virtual Production
-**Technical Lead**
-- Hero – Jay Chou – League of Legend 11th Anniversary (2022)
-- Nine Chen – Ten Thousand Times Music Video (2022)
-- ASUS CES (2020 – 2022)
-- ACER GPC (2021 – 2022)  
-Responsibilities included integrating Extended Reality (XR) technology and coordinating on-site technical teams (real-time composition, camera calibration, LED mapping, interactive Unreal Engine elements).
+- [cite_start]**Moonshine Studio**, Taipei, Taiwan [cite: 37]
 
-**Technical Artist**
-- Gamania Virtual Idol Festival (2021)
-- JJ Sanctuary Finale 2021 (林俊傑終點站線上演唱會) (2021)
-- KKBOX Online Concert (2021)
-- Gold Leaf TV Show (茶金) (2020)
+  **Acting Technical Lead**
+  [cite_start]*Jan 2022 – Aug 2022* [cite: 39, 40]
+  * [cite_start]Led the design and development of Extended Reality (XR) systems in Unreal Engine, enabling real-time synchronization between live-action and virtual environments. [cite: 40]
+  * [cite_start]Deployed across major productions including the 2022 Mayday New Year's Eve Concert, Hero Jay Chou League of Legends 11th Anniversary (2022), and projects for clients such as ASUS and ACER. [cite: 41]
 
-## Virtual Reality
-**Technical Artist**
-- Missing Pictures Episode 2: Tsai Ming-liang (2021)
+  **Technical Artist**
+  [cite_start]*Feb 2021 – Jan 2022* [cite: 42, 43]
+  * [cite_start]Experienced in virtual production with a focus on computer vision, real-time composition, and Unreal Engine tool development (shaders and plugins). [cite: 43]
+  * [cite_start]Contributed to major productions including the Gamania Virtual Idol Festival (2021), JJ Sanctuary Finale (2021), the KKBOX Online Concert (2021), the Gold Leaf TV series (2020), and VR documentary Missing Pictures Episode 2. [cite: 44]
 
-Training
+  **Environment Artist**
+  [cite_start]*Jun 2020 – Feb 2021* [cite: 45, 46]
+  * [cite_start]Designed and produced 3D environments in Blender and Unreal Engine for concerts, music videos, commercials, and product launches. [cite: 47]
+  * [cite_start]Delivered 8 large-scale virtual production projects from concept to final execution. [cite: 48]
+
+Honors & Awards
 ======
-- **FZD School of Design**, Singapore  
-  *Feb 2019 – Jan 2020*  
-  Completed a one-year intensive program focusing on concept design
+* [cite_start]**First Place, Student Game Competition**, CHI '25 EA (Wandering Spirit) [cite: 73]
+* [cite_start]**Google Research Gift East Asia Student Travel Grant**, ($1500) [cite: 73]
+* [cite_start]**NSTC Overseas Conference Travel Grant**, ($1000) [cite: 73]
 
-Activities
+Academic Service
 ======
-- **Student Association for Cross Straits Exchange, National Taiwan University**, Taipei, Taiwan  
-  **President**  
-  *Sep 2016 – Aug 2017*  
-  **Head of Activities**  
-  *Sep 2015 – Aug 2016*  
-  Organized over a dozen lectures and events related to cross-strait exchange, culture, politics, and economics. Hosted exchange students and guided them in exploring Taiwanese culture.
-
-- **The Second Cross-Strait Youth Forum**  
-  **Organizer**  
-  *July 2016*  
-  Independently organized a large-scale event for 40 students from prestigious universities across Taiwan and mainland China. Focused on cultural heritage and visited significant locations in Beijing, Tianjin, Taipei, and Tainan.
+* [cite_start]**Reviewer**, ACM CHI '26 (Outstanding Review Recognition x2) [cite: 76, 77]
+* [cite_start]**Panelist**, UIST '25 Workshop on Facilitating Longitudinal Interaction Studies of AI Systems [cite: 78]
 
 Skills
 ======
-- **Languages**: Mandarin, English (IELTS Overall 8 / R8.5 L8.5 W7 S7)  
-- **Programming Languages**: C++ (Proficient), Python (Proficient), JavaScript (Proficient)
-- **Development Framework**: Unreal Engine, Unity, OpenCV, PyTorch, Flask
-
-- **Research Methodologies**: User Studies(quantitative/qualitative), Virtual Reality, Augmented Reality
-- **Design Tools**: Adobe Creative Suite, Blender, SketchUp, ProCreate
+* **Languages**: Mandarin; [cite_start]English (IELTS Overall 8 / R 8.5, L 8.5, W 7, S 7) [cite: 91]
+* [cite_start]**Programming**: C++, Python, JavaScript [cite: 92]
+* [cite_start]**Development Frameworks**: Unreal Engine, Unity, OpenCV, AutoGen, PyTorch, Flask [cite: 93]
+* [cite_start]**Research Methodologies**: User studies (quantitative / qualitative), Field Deployment, Virtual Reality, Augmented Reality [cite: 93, 94]
+* [cite_start]**Design Tools**: Adobe Photoshop, Blender, SketchUp, ProCreate [cite: 95]
 
 <!-- Publications
 ======

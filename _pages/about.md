@@ -10,6 +10,7 @@ redirect_from:
 I am currently a Visiting Scholar at the UCLA HCI Lab and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.
 
 ## News
+- 📝 November 2025: Received 2 Outstanding Reviewer Recognition for CHI'26 Full Paper Review.
 - 🎉 September 2025: Submitted 3 papers to CHI'26.
 - 📝✨ July 2025: Paper "GenTune" accepted to UIST'25.
 - 🧑‍🔬🏫 June 2025: Began as Visiting Scholar at UCLA HCI Research.
