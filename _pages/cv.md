@@ -27,25 +27,25 @@ redirect_from:
 *Visiting Scholar*
 *Advisor: Prof. Anthony Xiang Chen*
 *May 2025 – May 2026 (Expected)*
-* Conducting research on human-AI collaboration and multi-agent systems for creative production workflows.
-* Leading **AnimAgents** (CHI '26 under review), a stage-aware orchestration system that coordinates multi-stage animation pre-production.
-* The system has been deployed in 2 professional studios to support real-world creative projects.
+  * Conducting research on human-AI collaboration and multi-agent systems for creative production workflows.
+  * Leading **AnimAgents** (CHI '26 under review), a stage-aware orchestration system that coordinates multi-stage animation pre-production.
+  * The system has been deployed in 2 professional studios to support real-world creative projects.
 
 
 * **Communication and Multimedia Lab, National Taiwan University**, Taipei, Taiwan
 *Research Assistant*
 *Advisor: Prof. Robin Bing-Yu Chen*
 *Jan 2024 – Jun 2026 (Expected)*
-* Conducted research on human-AI collaboration in professional creative workflows, developing creativity-support systems adopted by animation and game studios.
-* Led multiple first-author projects including **AIdeation** (CHI '25), **GenTune** (UIST '25), and **DDS** (CHI '26 under review) focusing on human-centered generative AI, interpretability, and controllability.
+  * Conducted research on human-AI collaboration in professional creative workflows, developing creativity-support systems adopted by animation and game studios.
+  * Led multiple first-author projects including **AIdeation** (CHI '25), **GenTune** (UIST '25), and **DDS** (CHI '26 under review) focusing on human-centered generative AI, interpretability, and controllability.
 
 
 * **Modeling and Informatics Lab, National Taiwan University**, Taipei, Taiwan
 *Research Assistant*
 *Advisor: Prof. Tsung-Ren Huang*
 *Jan 2015 – Jun 2016*
-* Conducted research on differences in EEG patterns between twins performing simple cognitive tasks.
-* Analyzed emotional word usage on social media platforms using sentiment analysis and linguistic feature extraction.
+  * Conducted research on differences in EEG patterns between twins performing simple cognitive tasks.
+  * Analyzed emotional word usage on social media platforms using sentiment analysis and linguistic feature extraction.
 
 
 
