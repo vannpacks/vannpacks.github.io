@@ -42,7 +42,19 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% if post.authors %}
+          {% if include.authors_list and post.authors %}
+            <div class="publication-authors">
+              <h4>Authors</h4>
+              {% for author_key in post.authors %}
+                {% assign author = site.data.authors[author_key] %}
+                {% if author %}
+                  {% include author-profile.html author=author_key %}
+                {% else %}
+                  <p>{{ author_key }}</p>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% elsif post.authors %}
             <div class="publication-authors">
               <h4>Authors</h4>
               {% for author_key in post.authors %}
