@@ -8,6 +8,8 @@ date: 2025-09-27
 venue: 'UIST 2025'
 paperurl: 'https://dl.acm.org/doi/10.1145/3746059.3747774'
 # citation: 'WenFan Wang, et al. (2025). "GenTune: Toward Traceable Prompts to Improve Controllability of Image Refinement in Environment Design." <i>UIST 2025</i>.'
+authors:
+Wen-Fan Wang, Ting-Ying Lee, Chien-Ting Lu, Che-Wei Hsu, Nil Ponsa Campany\`a, Yu Chen, Mike Y. Chen, Bing-Yu Chen.
 header:
   image: UIST25_GenTune.png
   teaser: UIST25_GenTune.png
