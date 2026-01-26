@@ -7,7 +7,7 @@ excerpt: 'CHI ’26 Full Paper.'
 date: 2026-04-13
 venue: 'CHI 2026 Conference on Human Factors in Computing Systems'
 paperurl: '/files/CHI_2026__MoveTogether__RR_Version__compressed.pdf'
-citation: 'Wen-Fan Wang, et al. (2026). "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality." <i>Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’26)</i>.'
+# citation: 'Wen-Fan Wang, et al. (2026). "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality." <i>Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’26)</i>.'
 header:
   image: CHI26_movetogether.png
   teaser: CHI26_movetogether.png

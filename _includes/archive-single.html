@@ -42,6 +42,21 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if post.authors %}
+            <div class="publication-authors">
+              <h4>Authors</h4>
+              {% for author_key in post.authors %}
+                {% assign author = site.data.authors[author_key] %}
+                {% if author %}
+                  {% include author-profile.html author=author_key %}
+                {% else %}
+                  <p>{{ author_key }}</p>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% elsif post.author %}
+            {% include author-profile.html author=post.author %}
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
