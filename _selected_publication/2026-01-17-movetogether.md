@@ -6,7 +6,7 @@ permalink: /publication/2026-movetogether
 excerpt: 'CHI '26 Full Paper.'
 date: 2026-01-17
 venue: 'Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26).'
-paperurl: '/files/CHI_2026__MoveTogether__RR_Version__compressed.pdf'
+paperurl: '/files/chi26_movetogether.pdf'
 # citation: 'Wen-Fan Wang, et al. (2026). "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality." <i>Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '26)</i>.'
 authors:
   - Pin-Chun Lu*, <u>Wen-Fan Wang</u>*, Che-Wei Wang, Ting-Ying Lee, Tsai-Hsuan Lin, Duo-Jie Hsiao, Che-Han Hsieh, Yu-Ting Tseng, Neng-Hao Yu, Mike Y. Chen.
