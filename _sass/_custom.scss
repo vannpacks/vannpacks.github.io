@@ -2,15 +2,3 @@
 .selected-publications-list .list__item {
   padding-right: 0;
 }
-
-/* Fix page width - remove large right margin */
-.page {
-  @media (min-width: 925px) {
-    float: left;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
