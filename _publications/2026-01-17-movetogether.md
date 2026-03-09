@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-movetogether
 excerpt: "CHI ‘26 Full Paper. Honorable Mention Award."
 date: 2026-04-13
-venue: 'Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26).'
+venue: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ‘26)."
 paperurl: '/files/chi26_movetogether.pdf'
 # citation: 'Wen-Fan Wang, et al. (2026). "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality." <i>Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’26)</i>.'
 authors:
