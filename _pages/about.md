@@ -10,6 +10,7 @@ redirect_from:
 I am currently a Visiting Scholar at the **UCLA HCI Research** and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.
 
 ## News
+- 🏆🎉 March 2026: Paper "MoveTogether" received an Honorable Mention Award at CHI'26.
 - 🤖🎉 January 2026: Paper "MoveTogether" accepted to CHI'26.
 - 📝 December 2025: 2 Outstanding Reviewer Recognition for CHI'26 Full Paper Review.
 - 🎉 September 2025: Submitted 3 papers to CHI'26.

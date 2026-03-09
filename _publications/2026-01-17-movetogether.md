@@ -3,7 +3,7 @@ title: "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality"
 collection: publications
 category: conferences
 permalink: /publication/2026-movetogether
-excerpt: 'CHI ’26 Full Paper.'
+excerpt: "CHI ‘26 Full Paper. Honorable Mention Award."
 date: 2026-04-13
 venue: 'Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26).'
 paperurl: '/files/chi26_movetogether.pdf'
