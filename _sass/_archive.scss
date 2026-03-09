@@ -107,8 +107,8 @@
 
   .archive__item-teaser {
     flex-shrink: 0;
-    width: 160px;
-    max-width: 160px;
+    width: 200px;
+    max-width: 200px;
     margin-right: 1.25rem;
   }
 
@@ -118,15 +118,15 @@
   }
 
   @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0;
   }
 
   @include breakpoint($large) {
-    padding-right: $right-sidebar-width;
+    padding-right: 0;
   }
 
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
+    padding-right: 0;
   }
 
   .page__meta {
