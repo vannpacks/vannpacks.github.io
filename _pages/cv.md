@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-<p><a href="/files/CV__PhD.pdf" target="_blank">View CV (PDF)</a> &nbsp;|&nbsp; <a href="/files/CV__PhD.pdf" download>Download CV</a></p>
+<iframe src="/files/CV__PhD.pdf" width="100%" height="900px" style="border: none;"></iframe>
