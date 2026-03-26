@@ -10,15 +10,19 @@ redirect_from:
 I am currently a Visiting Scholar at the **UCLA HCI Research** and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.
 
 ## News
-- 🏆🎉 March 2026: Paper "MoveTogether" received an Honorable Mention Award at CHI'26.
-- 🤖🎉 January 2026: Paper "MoveTogether" accepted to CHI'26.
-- 📝 December 2025: 2 Outstanding Reviewer Recognition for CHI'26 Full Paper Review.
-- 🎉 September 2025: Submitted 3 papers to CHI'26.
-- 📝✨ July 2025: Paper "GenTune" accepted to UIST'25.
-- 🧑‍🔬🏫 June 2025: Began as Visiting Scholar at UCLA HCI Research.
-- 🏆🎮 May 2025: "Wandering Spirit" won First Place in CHI'25 Student Game Competition.
-- 🎮🎉 February 2025: "Wandering Spirit" accepted to CHI'25 Student Game Competition.
-- 🤖🎉 January 2025: Paper "AIdeation" accepted to CHI'25.
+<div style="height: 160px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 4px; padding: 0.5em 1em;">
+<ul style="margin: 0; padding-left: 1.2em;">
+<li>🏆🎉 March 2026: Paper "MoveTogether" received an Honorable Mention Award at CHI'26.</li>
+<li>🤖🎉 January 2026: Paper "MoveTogether" accepted to CHI'26.</li>
+<li>📝 December 2025: 2 Outstanding Reviewer Recognition for CHI'26 Full Paper Review.</li>
+<li>🎉 September 2025: Submitted 3 papers to CHI'26.</li>
+<li>📝✨ July 2025: Paper "GenTune" accepted to UIST'25.</li>
+<li>🧑‍🔬🏫 June 2025: Began as Visiting Scholar at UCLA HCI Research.</li>
+<li>🏆🎮 May 2025: "Wandering Spirit" won First Place in CHI'25 Student Game Competition.</li>
+<li>🎮🎉 February 2025: "Wandering Spirit" accepted to CHI'25 Student Game Competition.</li>
+<li>🤖🎉 January 2025: Paper "AIdeation" accepted to CHI'25.</li>
+</ul>
+</div>
 
 ## Selected Publications
 <ul class="selected-publications-list">
