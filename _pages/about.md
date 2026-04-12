@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Visiting Scholar at the **UCLA HCI Research** and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.
+I am an incoming PhD student in **Information Science** at **Cornell Tech**, advised by [Max Kreminski](https://mkremins.github.io/). I am currently a Visiting Scholar at the **UCLA HCI Research** and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.
 
 ## News
 <div style="height: 160px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 4px; padding: 0.5em 1em;">
@@ -33,6 +33,7 @@ I am currently a Visiting Scholar at the **UCLA HCI Research** and a graduate st
 <p class="text-right"><a href="{{ '/publications/' | relative_url }}">More publications...</a></p>
 
 ## Experience
+- Ph.D. Student in Information Science, Cornell Tech (incoming)
 - Visiting Scholar in Computer Science, University of California, Los Angeles (2025&ndash;present)
 - M.S. in Computer Science, National Taiwan University (2023&ndash;present)
 - Unreal Engine Technical Lead, Moonshine Animation (2022)
