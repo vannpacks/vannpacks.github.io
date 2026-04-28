@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
 import Link from "next/link";
 import Image from "next/image";
-import { about, news, experience } from "@/lib/data";
+import { about, news, experience, selectedPublications } from "@/lib/data";
 import BioText from "@/components/BioText";
 
 function SocialLink({ href, icon, label }: { href: string; icon: React.ReactNode; label: string }) {
@@ -22,12 +22,6 @@ function SocialLink({ href, icon, label }: { href: string; icon: React.ReactNode
   );
 }
 
-const initials = about.name
-  .split(" ")
-  .map((n) => n[0])
-  .join("")
-  .slice(0, 2)
-  .toUpperCase();
 
 export default function About() {
   return (
@@ -95,6 +89,52 @@ export default function About() {
         </div>
       </section>
 
+      {/* Selected Publications */}
+      <section className="mb-16">
+        <h2 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ color: "var(--accent)" }}>
+          Selected Publications
+        </h2>
+        <div className="space-y-3">
+          {selectedPublications.map((pub) => (
+            <a
+              key={pub.title}
+              href={pub.paperurl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card flex items-center gap-4 p-4 group"
+              style={{ textDecoration: "none" }}
+            >
+              {pub.teaser && (
+                <Image
+                  src={pub.teaser}
+                  alt={pub.title}
+                  width={80}
+                  height={56}
+                  className="rounded flex-shrink-0 object-cover"
+                  style={{ width: 80, height: 56 }}
+                />
+              )}
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-medium leading-snug mb-1 group-hover:[color:var(--accent)] transition-colors" style={{ color: "var(--text)" }}>
+                  {pub.title}
+                </p>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-mono" style={{ color: "var(--text-muted)" }}>{pub.venue}</span>
+                  {pub.award && (
+                    <span className="tag tag-accent text-xs">★ {pub.award}</span>
+                  )}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+        <div className="mt-4">
+          <Link href="/publications" className="text-xs font-medium transition-colors hover:[color:var(--accent)]" style={{ color: "var(--text-muted)" }}>
+            All publications →
+          </Link>
+        </div>
+      </section>
+
       {/* Experience */}
       <section className="mb-16">
         <h2 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ color: "var(--accent)" }}>
@@ -124,7 +164,6 @@ export default function About() {
           {[
             { href: "/cv", label: "View CV" },
             { href: "/publications", label: "Publications" },
-            { href: "/projects", label: "Projects" },
           ].map((link) => (
             <Link
               key={link.href}

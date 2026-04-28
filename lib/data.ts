@@ -14,6 +14,34 @@ export const about = {
 };
 
 // ============================================================
+// SELECTED PUBLICATIONS  (front page)
+// ============================================================
+
+export const selectedPublications = [
+  {
+    title: "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality",
+    venue: "CHI '26",
+    award: "Honorable Mention",
+    paperurl: "/publication/CHI26_MoveTogether.pdf",
+    teaser: "/publication/CHI26_movetogether.png",
+  },
+  {
+    title: "GenTune: Toward Traceable Prompts to Improve Controllability of Image Refinement in Environment Design",
+    venue: "UIST '25",
+    award: null,
+    paperurl: "https://dl.acm.org/doi/10.1145/3746059.3747774",
+    teaser: "/publication/UIST25_GenTune.png",
+  },
+  {
+    title: "AIdeation: Designing a Human-AI Collaborative Ideation System for Concept Designers",
+    venue: "CHI '25",
+    award: null,
+    paperurl: "https://dl.acm.org/doi/10.1145/3706598.3714148",
+    teaser: "/publication/CHI25_AIdeation.png",
+  },
+];
+
+// ============================================================
 // NEWS
 // ============================================================
 
