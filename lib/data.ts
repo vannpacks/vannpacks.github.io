@@ -10,7 +10,7 @@ export const about = {
   linkedin: "https://linkedin.com/in/wang-wen-fan-2902b31a3",
   twitter: "https://twitter.com/vannwang",
   scholar: "https://scholar.google.com/citations?user=JVbiEvMAAAAJ",
-  bio: `I am an incoming PhD student in **Information Science** at **Cornell Tech**, advised by [Max Kreminski](https://mkremins.github.io/). I am currently a Visiting Scholar at the **UCLA HCI Research** and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.`,
+  bio: `I am an incoming PhD student in **Information Science** at **Cornell Tech**, advised by [Max Kreminski](https://mkremins.github.io/). I was previously a Visiting Scholar at the **UCLA HCI Research** and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.`,
 };
 
 // ============================================================
