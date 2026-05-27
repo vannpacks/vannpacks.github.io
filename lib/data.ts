@@ -87,7 +87,7 @@ export const education = [
 // ============================================================
 
 export const experience = [
-  { role: "Visiting Scholar",            org: "UCLA HCI Research",        years: "2025 – present" },
+  { role: "Visiting Scholar",            org: "UCLA HCI Research",        years: "2025 – 2026" },
   { role: "Unreal Engine Technical Lead", org: "Moonshine Animation",     years: "2022" },
   { role: "Unreal Engine Technical Artist", org: "Moonshine Animation",   years: "2020 – 2021" },
 ];
