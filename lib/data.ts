@@ -22,7 +22,7 @@ export const selectedPublications = [
     title: "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality",
     venue: "CHI '26",
     award: "Honorable Mention",
-    paperurl: "/publication/CHI26_MoveTogether.pdf",
+    paperurl: "https://dl.acm.org/doi/full/10.1145/3772318.3791957",
     teaser: "/publication/CHI26_movetogether.png",
   },
   {
