@@ -10,6 +10,9 @@ paperurl: 'https://dl.acm.org/doi/full/10.1145/3803784.3816878'
 # citation: 'Wen-Fan Wang, et al. (2026). "Trinketry: Tracing and Recombining Visual Elements in Generative Design Exploration." <i>Proceedings of the 2026 ACM Conference on Creativity and Cognition (C&C ’26)</i>.'
 authors:
   - <u>Wen-Fan Wang</u>, Yi-Ting Chiu, You-Yi Hsieh, Bing-Yu Chen, Max Kreminski.
+header:
+  image: CandC26_trinketry.png
+  teaser: CandC26_trinketry.png
 ---
 
 \
