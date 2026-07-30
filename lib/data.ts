@@ -10,7 +10,7 @@ export const about = {
   linkedin: "https://linkedin.com/in/wang-wen-fan-2902b31a3",
   twitter: "https://twitter.com/vannwang",
   scholar: "https://scholar.google.com/citations?user=JVbiEvMAAAAJ",
-  bio: `I am an incoming PhD student in **Information Science** at **Cornell Tech**, advised by [Max Kreminski](https://mkremins.github.io/). I am currently a Visiting Scholar at the **UCLA HCI Research** and a graduate student at **National Taiwan University** focusing on tools that enhance creativity for designers and artists. Previously I worked as a technical artist and lead at Moonshine Animation developing real-time graphics solutions.`,
+  bio: `I am an incoming PhD student in **Information Science** at **Cornell Tech**, advised by [Max Kreminski](https://mkremins.github.io/) and supported by the **Taiwan–Cornell Scholarship**. My research focuses on human–AI collaboration and creativity-support tools for designers and artists.`,
 };
 
 // ============================================================
@@ -22,7 +22,7 @@ export const selectedPublications = [
     title: "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality",
     venue: "CHI '26",
     award: "Honorable Mention",
-    paperurl: "/publication/CHI26_MoveTogether.pdf",
+    paperurl: "https://dl.acm.org/doi/full/10.1145/3772318.3791957",
     teaser: "/publication/CHI26_movetogether.png",
   },
   {
@@ -46,6 +46,7 @@ export const selectedPublications = [
 // ============================================================
 
 export const news = [
+  { date: "May 2026",       text: `🎓✨ Awarded the Taiwan–Cornell Scholarship, a competitive doctoral fellowship jointly funded by Taiwan's Ministry of Education and Cornell University.` },
   { date: "March 2026",     text: `🏆🎉 Paper "MoveTogether" received an Honorable Mention Award at CHI'26.` },
   { date: "January 2026",   text: `🤖🎉 Paper "MoveTogether" accepted to CHI'26.` },
   { date: "December 2025",  text: `📝 2 Outstanding Reviewer Recognition for CHI'26 Full Paper Review.` },
@@ -87,7 +88,7 @@ export const education = [
 // ============================================================
 
 export const experience = [
-  { role: "Visiting Scholar",            org: "UCLA HCI Research",        years: "2025 – present" },
+  { role: "Visiting Scholar",            org: "UCLA HCI Research",        years: "2025 – 2026" },
   { role: "Unreal Engine Technical Lead", org: "Moonshine Animation",     years: "2022" },
   { role: "Unreal Engine Technical Artist", org: "Moonshine Animation",   years: "2020 – 2021" },
 ];
