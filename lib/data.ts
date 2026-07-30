@@ -72,7 +72,7 @@ export const education = [
     degree: "M.S. in Computer Science",
     school: "National Taiwan University",
     years: "2023 – present",
-    note: "",
+    note: "Advisor: Robin Bing-Yu Chen",
   },
   {
     degree: "B.S. in Psychology",
