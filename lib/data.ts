@@ -19,6 +19,13 @@ export const about = {
 
 export const selectedPublications = [
   {
+    title: "Analyze-Experiment-Resituate: An AI-assisted Art Style Exploration Framework for Professional Digital Artists",
+    venue: "UIST '26",
+    award: null,
+    paperurl: "/publication/UIST26_AER_Main_compressed.pdf",
+    teaser: "/publication/UIST26_AER.png",
+  },
+  {
     title: "MoveTogether: Exploring Physical Co-op Gameplay in Mixed-Reality",
     venue: "CHI '26",
     award: "Honorable Mention",
@@ -46,6 +53,7 @@ export const selectedPublications = [
 // ============================================================
 
 export const news = [
+  { date: "August 2026",    text: `🎨🎉 Paper "Analyze-Experiment-Resituate" accepted to UIST'26.` },
   { date: "May 2026",       text: `🎓✨ Awarded the Taiwan–Cornell Scholarship, a competitive doctoral fellowship jointly funded by Taiwan's Ministry of Education and Cornell University.` },
   { date: "March 2026",     text: `🏆🎉 Paper "MoveTogether" received an Honorable Mention Award at CHI'26.` },
   { date: "January 2026",   text: `🤖🎉 Paper "MoveTogether" accepted to CHI'26.` },
