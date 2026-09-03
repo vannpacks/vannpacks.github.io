@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "WenFan Wang — HCI Researcher",
-  description: "Personal website of WenFan Wang, incoming PhD student in Information Science at Cornell Tech.",
+  description: "Personal website of WenFan Wang, PhD student in Information Science at Cornell Tech.",
 };
 
 export default function RootLayout({

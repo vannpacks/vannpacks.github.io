@@ -10,7 +10,7 @@ export const about = {
   linkedin: "https://linkedin.com/in/wang-wen-fan-2902b31a3",
   twitter: "https://twitter.com/vannwang",
   scholar: "https://scholar.google.com/citations?user=JVbiEvMAAAAJ",
-  bio: `I am an incoming PhD student in **Information Science** at **Cornell Tech**, advised by [Max Kreminski](https://mkremins.github.io/) and supported by the **Taiwan–Cornell Scholarship**. My research focuses on human–AI collaboration and creativity-support tools for designers and artists.`,
+  bio: `I am a PhD student in **Information Science** at **Cornell Tech**, advised by [Max Kreminski](https://mkremins.github.io/) and supported by the **Taiwan–Cornell Scholarship**. My research focuses on human–AI collaboration and creativity-support tools for designers and artists.`,
 };
 
 // ============================================================
