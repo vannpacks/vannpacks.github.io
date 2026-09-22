@@ -3,14 +3,14 @@ title: "Wandering Spirit: Exploring Cooperative Mixed-Reality Gameplay with Shar
 collection: publications
 category: conferences
 permalink: /publication/2025-wandering-spirit
-excerpt: 'CHI \`25 Student Game Competition best paper.'
+excerpt: 'CHI ’25 Student Game Competition, First Place.'
+award: 'First Place, Student Game Competition'
 date: 2025-05-01
 venue: 'Proceedings of the CHI EA 2025 Student Game Competition.'
 paperurl: 'https://dl.acm.org/doi/10.1145/3706599.3720314'
 # citation: 'WenFan Wang, et al. (2025). "Wandering Spirit: Exploring Cooperative Mixed-Reality Gameplay with Shared Physical Props." <i>CHI EA 2025 Student Game Competition</i>.'
-# authors:
-#   - Name Name
-#   - Name2 Name2
+authors:
+  - <u>Wen-Fan Wang</u>, Ting-Ying Lee, Tsai-Hsuan Lin, Duo-Jie Hsiao, Che-Han Hsieh, Yu-Ting Tseng, Lo Yi-Chun.
 header:
   image: CHI25_ws.png
   teaser: CHI25_ws.png

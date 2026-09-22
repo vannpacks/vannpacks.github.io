@@ -1,19 +1,26 @@
 import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 import { getPublications } from "@/lib/publications";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Publications",
+  description: "Publications by Wen-Fan (Vann) Wang in human–computer interaction, generative AI, and mixed reality.",
+};
 
 export default function Publications() {
   const publications = getPublications();
   const years = [...new Set(publications.map((p) => p.year))].sort((a, b) => Number(b) - Number(a));
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-20">
+    <div className="max-w-4xl mx-auto px-6 py-20">
       <div className="mb-16">
-        <h1 className="text-3xl font-bold mb-3" style={{ color: "var(--text)" }}>
+        <p className="eyebrow">Research output</p>
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-4" style={{ color: "var(--text)" }}>
           Publications
         </h1>
-        <p className="text-sm" style={{ color: "var(--text-muted)" }}>
-          {publications.length} publications
+        <p className="text-sm max-w-xl leading-6" style={{ color: "var(--text-muted)" }}>
+          {publications.length} peer-reviewed papers, posters, and demos spanning human–AI collaboration, creativity support, and mixed reality. My name is underlined.
         </p>
       </div>
 
@@ -59,7 +66,7 @@ export default function Publications() {
                       />
                     )}
 
-                    <p className="text-sm italic mb-4" style={{ color: "var(--text-muted)" }}>
+                    <p className="text-sm italic mb-4 leading-relaxed" style={{ color: "var(--text-muted)" }}>
                       {pub.venue}
                     </p>
 

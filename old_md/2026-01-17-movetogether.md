@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2026-movetogether
 excerpt: "CHI ‘26 Full Paper. Honorable Mention Award."
+award: "Honorable Mention"
 date: 2026-04-13
 venue: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ‘26)."
 paperurl: '/publication/CHI26_MoveTogether.pdf'

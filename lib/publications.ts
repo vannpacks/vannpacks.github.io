@@ -26,11 +26,11 @@ export function getPublications(): Publication[] {
     // Strip leading backslash Jekyll artifact and trim
     const abstract = content.replace(/^\s*\\\s*/, "").trim();
 
-    // Detect award from excerpt
+    // Prefer structured award metadata, with a fallback for legacy entries.
     const excerpt: string = data.excerpt ?? "";
-    let award: string | null = null;
-    if (/honorable mention/i.test(excerpt)) award = "Honorable Mention";
-    else if (/best paper/i.test(excerpt)) award = "Best Paper";
+    let award: string | null = data.award ?? null;
+    if (!award && /honorable mention/i.test(excerpt)) award = "Honorable Mention";
+    else if (!award && /first place/i.test(excerpt)) award = "First Place";
 
     // Teaser image path
     const teaserFile: string | null = data.header?.teaser ?? null;
