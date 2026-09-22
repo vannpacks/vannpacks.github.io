@@ -1,119 +1,161 @@
-import Image from "next/image";
-import Link from "next/link";
-import { ArrowUpRight, Download, Mail, MapPin } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Mail, ExternalLink } from "lucide-react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
+import Link from "next/link";
+import Image from "next/image";
+import { about, news, experience, selectedPublications } from "@/lib/data";
 import BioText from "@/components/BioText";
-import { about, experience, news, selectedPublications } from "@/lib/data";
 
-function ContactLink({ href, label, children }: { href: string; label: string; children: React.ReactNode }) {
-  const external = href.startsWith("http");
+function SocialLink({ href, icon, label }: { href: string; icon: React.ReactNode; label: string }) {
+  const isExternal = href.startsWith("http");
   return (
     <a
       href={href}
-      aria-label={label}
-      target={external ? "_blank" : undefined}
-      rel={external ? "noopener noreferrer" : undefined}
-      className="icon-link"
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noopener noreferrer" : undefined}
+      className="flex items-center gap-1.5 text-base transition-colors hover:[color:var(--accent)]"
+      style={{ color: "var(--text-muted)" }}
     >
-      {children}
+      {icon}
+      {label}
     </a>
   );
 }
 
-export default function Home() {
+export default function About() {
   return (
-    <div className="page-shell">
-      <section className="hero-grid fade-up">
-        <div className="hero-copy">
-          <p className="eyebrow">Human–AI interaction researcher</p>
-          <h1>{about.name}</h1>
-          <p className="hero-role">{about.role}</p>
-          <div className="location-line"><MapPin size={15} /> {about.location}</div>
-
-          <div className="bio-copy"><BioText content={about.bio} /></div>
-
-          <div className="interest-list" aria-label="Research interests">
-            {about.interests.map((interest) => <span key={interest}>{interest}</span>)}
+    <div className="max-w-3xl mx-auto px-6 py-20">
+      <section className="mb-20 fade-up">
+        <div className="flex items-start gap-6 mb-8">
+          <div className="w-36 h-36 rounded-2xl flex-shrink-0 overflow-hidden" style={{ border: "1px solid var(--border)" }}>
+            <Image
+              src="/avatar.png"
+              alt={about.name}
+              width={144}
+              height={144}
+              className="w-full h-full object-cover"
+              priority
+            />
           </div>
-
-          <div className="hero-actions">
-            <a href={`mailto:${about.email}`} className="button button-primary"><Mail size={16} /> Get in touch</a>
-            <a href="/cv.pdf" className="button" target="_blank" rel="noopener noreferrer"><Download size={16} /> CV</a>
-            <div className="social-links">
-              <ContactLink href={about.scholar} label="Google Scholar"><SiGooglescholar size={19} /></ContactLink>
-              <ContactLink href={about.github} label="GitHub"><FaGithub size={19} /></ContactLink>
-              <ContactLink href={about.linkedin} label="LinkedIn"><FaLinkedin size={19} /></ContactLink>
+          <div>
+            <h1 className="text-4xl font-bold mb-2 glow-text" style={{ color: "var(--text)" }}>
+              {about.name}
+            </h1>
+            <p className="text-lg mb-4" style={{ color: "var(--text-muted)" }}>
+              {about.role}
+            </p>
+            <div className="flex items-center gap-4 flex-wrap">
+              <SocialLink href={`mailto:${about.email}`} icon={<Mail size={18} />} label="Email" />
+              <SocialLink href={about.scholar} icon={<SiGooglescholar size={18} />} label="Scholar" />
+              <SocialLink href={about.github} icon={<FaGithub size={18} />} label="GitHub" />
+              <SocialLink href={about.linkedin} icon={<FaLinkedin size={18} />} label="LinkedIn" />
+              <SocialLink href={about.twitter} icon={<FaTwitter size={18} />} label="Twitter" />
             </div>
           </div>
         </div>
 
-        <div className="portrait-wrap">
-          <div className="portrait-accent" aria-hidden="true" />
-          <Image
-            src="/avatar.png"
-            alt={`Portrait of ${about.name}`}
-            width={460}
-            height={460}
-            className="portrait"
-            priority
-          />
-          <div className="portrait-caption">
-            <span>Currently</span>
-            <strong>Cornell Tech · New York</strong>
-          </div>
+        <div className="text-base leading-relaxed">
+          <BioText content={about.bio} />
         </div>
       </section>
 
-      <section className="home-section">
-        <div className="section-heading">
-          <div><p className="eyebrow">Recent work</p><h2>Selected publications</h2></div>
-          <Link href="/publications" className="text-link">View all <ArrowUpRight size={14} /></Link>
-        </div>
-        <div className="publication-grid">
-          {selectedPublications.map((pub) => (
-            <a key={pub.title} href={pub.paperurl} target="_blank" rel="noopener noreferrer" className="publication-card">
-              <div className="publication-image">
-                <Image src={pub.teaser} alt="" width={640} height={360} className="object-cover" />
-              </div>
-              <div className="publication-body">
-                <div className="publication-meta">
-                  <span>{pub.venue}</span>
-                  {pub.award && <span className="award">★ {pub.award}</span>}
-                </div>
-                <h3>{pub.title}</h3>
-              </div>
-            </a>
+      <section className="mb-16">
+        <h2 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ color: "var(--accent)" }}>
+          News
+        </h2>
+        <div className="card divide-y overflow-y-auto" style={{ borderColor: "var(--border)", maxHeight: "260px" }}>
+          {news.map((item, i) => (
+            <div key={i} className="flex gap-5 px-5 py-4">
+              <span className="text-sm font-mono flex-shrink-0 mt-0.5 w-32" style={{ color: "var(--text-muted)" }}>
+                {item.date}
+              </span>
+              <span className="text-base" style={{ color: "var(--text)" }}>{item.text}</span>
+            </div>
           ))}
         </div>
       </section>
 
-      <div className="home-columns">
-        <section className="home-section">
-          <div className="section-heading compact"><div><p className="eyebrow">Timeline</p><h2>Experience</h2></div></div>
-          <div className="timeline">
-            {experience.map((item) => (
-              <div className="timeline-item" key={`${item.role}-${item.org}`}>
-                <div className="timeline-dot" />
-                <p className="timeline-date">{item.years}</p>
-                <h3>{item.role}</h3>
-                <p>{item.org}</p>
+      <section className="mb-16">
+        <h2 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ color: "var(--accent)" }}>
+          Selected Publications
+        </h2>
+        <div className="space-y-3">
+          {selectedPublications.map((pub) => (
+            <a
+              key={pub.title}
+              href={pub.paperurl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card flex items-center gap-4 p-4 group"
+              style={{ textDecoration: "none" }}
+            >
+              <Image
+                src={pub.teaser}
+                alt={pub.title}
+                width={80}
+                height={56}
+                className="rounded flex-shrink-0 object-cover"
+                style={{ width: 80, height: 56 }}
+              />
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-medium leading-snug mb-1 group-hover:[color:var(--accent)] transition-colors" style={{ color: "var(--text)" }}>
+                  {pub.title}
+                </p>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-mono" style={{ color: "var(--text-muted)" }}>{pub.venue}</span>
+                  {pub.award && <span className="tag tag-accent text-xs">★ {pub.award}</span>}
+                </div>
               </div>
-            ))}
-          </div>
-        </section>
+            </a>
+          ))}
+        </div>
+        <div className="mt-4">
+          <Link href="/publications" className="text-xs font-medium transition-colors hover:[color:var(--accent)]" style={{ color: "var(--text-muted)" }}>
+            All publications →
+          </Link>
+        </div>
+      </section>
 
-        <section className="home-section">
-          <div className="section-heading compact"><div><p className="eyebrow">Updates</p><h2>News</h2></div></div>
-          <div className="news-list">
-            {news.slice(0, 6).map((item, index) => (
-              <div className="news-item" key={`${item.date}-${index}`}>
-                <time>{item.date}</time><p>{item.text}</p>
+      <section className="mb-16">
+        <h2 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ color: "var(--accent)" }}>
+          Experience
+        </h2>
+        <div className="space-y-4">
+          {experience.map((item) => (
+            <div key={item.role + item.org} className="flex items-start justify-between gap-4">
+              <div>
+                <span className="text-base" style={{ color: "var(--text)" }}>{item.role}</span>
+                <span className="text-base" style={{ color: "var(--text-muted)" }}>, {item.org}</span>
               </div>
-            ))}
-          </div>
-        </section>
-      </div>
+              <span className="text-sm font-mono flex-shrink-0 mt-0.5" style={{ color: "var(--text-muted)" }}>
+                {item.years}
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ color: "var(--accent)" }}>
+          Explore
+        </h2>
+        <div className="flex flex-wrap gap-3">
+          {[
+            { href: "/cv", label: "View CV" },
+            { href: "/publications", label: "Publications" },
+          ].map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all group"
+              style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text)" }}
+            >
+              {link.label}
+              <ExternalLink size={12} className="opacity-50 group-hover:opacity-100 transition-opacity" />
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

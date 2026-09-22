@@ -13,13 +13,12 @@ export default function Publications() {
   const years = [...new Set(publications.map((p) => p.year))].sort((a, b) => Number(b) - Number(a));
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-20">
+    <div className="max-w-3xl mx-auto px-6 py-20">
       <div className="mb-16">
-        <p className="eyebrow">Research output</p>
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-4" style={{ color: "var(--text)" }}>
+        <h1 className="text-3xl font-bold mb-3" style={{ color: "var(--text)" }}>
           Publications
         </h1>
-        <p className="text-sm max-w-xl leading-6" style={{ color: "var(--text-muted)" }}>
+        <p className="text-sm" style={{ color: "var(--text-muted)" }}>
           {publications.length} peer-reviewed papers, posters, and demos spanning human–AI collaboration, creativity support, and mixed reality. My name is underlined.
         </p>
       </div>

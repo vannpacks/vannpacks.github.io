@@ -7,9 +7,8 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { href: "/", label: "About" },
-  { href: "/projects", label: "Research" },
-  { href: "/publications", label: "Publications" },
   { href: "/cv", label: "CV" },
+  { href: "/publications", label: "Publications" },
 ];
 
 export default function Nav() {
@@ -20,7 +19,7 @@ export default function Nav() {
     <header
       className="sticky top-0 z-50 px-6 py-4 flex items-center justify-between backdrop-blur-md"
       style={{
-        background: "rgba(244,241,233,0.88)",
+        background: "rgba(10,10,15,0.85)",
         borderBottom: "1px solid var(--border)",
       }}
     >
@@ -29,7 +28,7 @@ export default function Nav() {
         className="text-sm font-semibold tracking-wider uppercase"
         style={{ color: "var(--accent)", letterSpacing: "0.15em" }}
       >
-        VANN WANG
+        WW
       </Link>
 
       {/* Desktop nav */}

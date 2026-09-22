@@ -1,86 +1,114 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Research",
-  description: "Research systems by Wen-Fan (Vann) Wang spanning human–AI collaboration and mixed reality.",
+  description: "Research systems by Wen-Fan (Vann) Wang.",
 };
 
-const projects = [
+type Project = {
+  title: string;
+  desc: string;
+  tags: string[];
+  category: "research" | "mixed-reality";
+  link: string;
+  year: string;
+};
+
+const projects: Project[] = [
   {
     title: "Analyze–Experiment–Resituate",
+    desc: "An AI-assisted art-style exploration framework that helps professional digital artists interpret references, experiment with stylistic possibilities, and reflect on emerging styles.",
+    tags: ["Generative AI", "Digital Art", "Field Study"],
+    category: "research",
+    link: "/publication/UIST26_AER_Main_compressed.pdf",
     year: "2026",
-    venue: "UIST ’26",
-    image: "/publication/UIST26_AER.png",
-    href: "/publication/UIST26_AER_Main_compressed.pdf",
-    description: "A framework and prototype for helping professional digital artists interpret references, experiment with stylistic possibilities, and reflect on emerging art styles.",
-    tags: ["Generative AI", "Digital art", "Field study"],
   },
   {
     title: "MoveTogether",
+    desc: "A mixed-reality system that embeds cooperation into the shared physical manipulation of a single tracked prop.",
+    tags: ["Mixed Reality", "Embodied Interaction", "Co-op Play"],
+    category: "mixed-reality",
+    link: "/publication/CHI26_MoveTogether.pdf",
     year: "2026",
-    venue: "CHI ’26 · Honorable Mention",
-    image: "/publication/CHI26_movetogether.png",
-    href: "/publication/CHI26_MoveTogether.pdf",
-    description: "A mixed-reality system that embeds cooperation into the shared physical manipulation of a single tracked prop.",
-    tags: ["Mixed reality", "Embodied interaction", "Co-op play"],
   },
   {
     title: "Trinketry",
+    desc: "An element-centered visual exploration system for extracting, recombining, tracing, and retrieving promising fragments from generative design work.",
+    tags: ["Creativity Support", "Visual Exploration", "Provenance"],
+    category: "research",
+    link: "https://dl.acm.org/doi/full/10.1145/3803784.3816878",
     year: "2026",
-    venue: "C&C ’26",
-    image: "/publication/CandC26_Trinketry.png",
-    href: "https://dl.acm.org/doi/full/10.1145/3803784.3816878",
-    description: "An element-centered visual exploration system for extracting, recombining, tracing, and retrieving promising fragments from generative design work.",
-    tags: ["Creativity support", "Visual exploration", "Provenance"],
   },
   {
     title: "GenTune",
+    desc: "A traceable-prompt interface for precise and globally consistent refinement of generated environment designs.",
+    tags: ["Image Generation", "Controllability", "Professional Workflows"],
+    category: "research",
+    link: "https://dl.acm.org/doi/10.1145/3746059.3747774",
     year: "2025",
-    venue: "UIST ’25",
-    image: "/publication/UIST25_GenTune.png",
-    href: "https://dl.acm.org/doi/10.1145/3746059.3747774",
-    description: "A traceable-prompt interface that lets environment designers connect image elements to prompt labels for precise, globally consistent refinement.",
-    tags: ["Image generation", "Controllability", "Professional workflows"],
   },
   {
     title: "AIdeation",
+    desc: "A human–AI ideation system that supports concept designers in brainstorming and recombining visual references.",
+    tags: ["Human–AI Collaboration", "Concept Design", "Field Deployment"],
+    category: "research",
+    link: "https://dl.acm.org/doi/10.1145/3706598.3714148",
     year: "2025",
-    venue: "CHI ’25",
-    image: "/publication/CHI25_AIdeation.png",
-    href: "https://dl.acm.org/doi/10.1145/3706598.3714148",
-    description: "A human–AI ideation system that supports concept designers in brainstorming and recombining visual references, validated through lab and studio field studies.",
-    tags: ["Human–AI collaboration", "Concept design", "Field deployment"],
   },
 ];
 
-export default function Research() {
-  return (
-    <div className="max-w-5xl mx-auto px-6 py-20">
-      <header className="mb-14 max-w-2xl">
-        <p className="eyebrow">Selected systems</p>
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-5">Research</h1>
-        <p className="text-base leading-7" style={{ color: "var(--text-muted)" }}>
-          I build and study interactive systems that give creative professionals more agency, traceability, and control when working with AI.
-        </p>
-      </header>
+const categoryLabel: Record<Project["category"], string> = {
+  research: "Human–AI",
+  "mixed-reality": "Mixed Reality",
+};
 
-      <div className="space-y-5">
+const categoryColor: Record<Project["category"], string> = {
+  research: "var(--accent)",
+  "mixed-reality": "var(--accent-2)",
+};
+
+export default function Projects() {
+  return (
+    <div className="max-w-3xl mx-auto px-6 py-20">
+      <div className="mb-16">
+        <h1 className="text-3xl font-bold mb-3" style={{ color: "var(--text)" }}>Research</h1>
+        <p className="text-sm" style={{ color: "var(--text-muted)" }}>
+          Interactive systems for creative work, human–AI collaboration, and mixed reality.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 gap-4">
         {projects.map((project) => (
-          <a key={project.title} href={project.href} target="_blank" rel="noopener noreferrer" className="card group grid md:grid-cols-[260px_1fr] overflow-hidden">
-            <div className="h-48 md:h-full min-h-48 overflow-hidden" style={{ borderRight: "1px solid var(--border)" }}>
-              <Image src={project.image} alt="" width={640} height={360} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.025]" />
-            </div>
-            <div className="p-6 md:p-7">
-              <div className="flex items-start justify-between gap-4 mb-3">
-                <div><p className="text-xs font-mono mb-2" style={{ color: "var(--accent)" }}>{project.year} · {project.venue}</p><h2 className="text-xl font-semibold tracking-tight">{project.title}</h2></div>
-                <ArrowUpRight size={18} className="shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" style={{ color: "var(--text-muted)" }} />
+          <div key={project.title} className="card p-5">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 mb-1 flex-wrap">
+                  <h2 className="text-sm font-semibold" style={{ color: "var(--text)" }}>{project.title}</h2>
+                  <span
+                    className="tag text-xs"
+                    style={{
+                      color: categoryColor[project.category],
+                      borderColor: categoryColor[project.category] + "44",
+                      background: categoryColor[project.category] + "11",
+                    }}
+                  >
+                    {categoryLabel[project.category]}
+                  </span>
+                </div>
+                <p className="text-sm leading-relaxed" style={{ color: "var(--text-muted)" }}>{project.desc}</p>
               </div>
-              <p className="text-sm leading-7 mb-5" style={{ color: "var(--text-muted)" }}>{project.description}</p>
-              <div className="flex flex-wrap gap-2">{project.tags.map((tag) => <span key={tag} className="tag">{tag}</span>)}</div>
+              <span className="text-xs font-mono flex-shrink-0 mt-0.5" style={{ color: "var(--text-muted)" }}>{project.year}</span>
             </div>
-          </a>
+
+            <div className="flex items-center gap-2 flex-wrap">
+              {project.tags.map((tag) => <span key={tag} className="tag">{tag}</span>)}
+              <div className="flex-1" />
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-xs transition-colors" style={{ color: "var(--text-muted)" }}>
+                <ExternalLink size={12} /> Paper
+              </a>
+            </div>
+          </div>
         ))}
       </div>
     </div>
